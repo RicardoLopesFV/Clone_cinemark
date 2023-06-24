@@ -1,0 +1,492 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: rgba(0, 0, 0);
+}
+
+#acessibilidade {
+    max-width: 100%;
+    background-color: #222222;
+    color: #fff;
+}
+
+#acessibilidade .navbar nav ul li > h6,
+#acessibilidade .navbar nav ul li p {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+#acessibilidade .navbar #acessibilidades ul li a > p:hover {
+    text-decoration: underline;
+}
+
+#acessibilidade .navbar nav ul li p span {
+    color: #b5121b;
+}
+
+#acessibilidade > .navbar {
+    padding: 2px;
+}
+
+.navbar-toggler-icon {
+    background-image: none;
+}
+
+#primary-navbar .navbar {
+    padding: 16px 0;
+}
+
+#primary-navbar .navbar .container nav ul li a p {
+    color: #fff;
+    margin: 0 8px 0 0;
+    font-size: 13px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#btn-fidelidade {
+    background-color: #b5121b;
+    border: none;
+    border-radius: 0%;
+    padding: 5px;
+    font-weight: bolder;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+#primary-navbar {
+    background-color: rgba(0, 0, 0);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border-bottom: .2px solid white;
+}
+
+#primary-navbar .navbar .container nav ul li a #location > span > p{
+    letter-spacing: 1px;
+    text-transform: none;
+    font-weight: normal
+}
+
+#primary-navbar .navbar .container nav ul li a #location {
+    margin-left: 8px;
+}
+
+#primary-navbar .navbar .container nav ul li a i{
+    margin-right: 8px;
+}
+
+#carousel-images .carousel-inner .carousel-item img {
+    max-width: 100%;
+    width: 100%;
+}
+
+#carousel-images .carousel-indicators {
+    position: absolute;
+    top: 105%;
+}
+
+#carousel-images .carousel-indicators button{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 1;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+#carousel-images .carousel-indicators .active {
+    background-color: #b5121b;
+}
+
+.fa-angle-left {
+    margin-right: 16px;
+}
+
+.fa-angle-right {
+    margin-left: 16px;
+}
+
+section {
+    margin-top: 100px;
+}
+
+#parceiros .container .row .col-3 img {
+    width: 100%;
+}
+
+#filmes-cartaz .container .row .col-1 h3,
+#filmes-cartaz .container .row .col-2 h3 {
+    color: #b5121b;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 16px;
+}
+
+#filmes-cartaz .container .row .col-3 .card {
+    border: none;
+    margin-top: 32px;
+}
+
+#novidades .container .row .col-5 .card{
+    max-width: 580px;
+    width: 100%;
+    border: none;
+    margin-bottom: 32px;
+}
+
+.card-footer {
+    background-color: #222222;
+    padding: 36px 36px;
+    color: #CCCCCC;
+    font-size: 23px;
+}
+
+.card-footer p {
+    margin: 0;
+    margin-left: 8px;
+}
+
+.card-footer a {
+    color: #b5121b;
+    margin-left: 8px;
+}
+
+#newsletter .row .col-12 {
+    background-image: url('./assets/images/bg-home-newsletter.jpg');
+    background-size: cover;
+    height: 110px;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+}
+
+#newsletter .row .col-12 button {
+    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 9px 80px;
+    border-radius: 20px;
+    margin-left: 56px;
+}
+
+#rodape {
+    height: 534px;
+    background-image: url('./assets/images/bg-footer.jpg');
+    background-size: cover;
+}
+
+#rodape .container nav {
+    border-bottom: 1px solid #555353;
+}
+
+#rodape .container nav ul li a {
+    padding: 32px 0;
+}
+
+#rodape .container nav ul li a > i {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+#rodape .container nav ul li a > div {
+    color: #fff;
+}
+
+#rodape .container nav ul li a > div p {
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#lista-rodape {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 16%);
+    column-gap: 1%;
+    padding: 0;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #555353;
+}
+
+#lista-rodape li {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#lista-rodape li h5 {
+    font-size: 14px;
+    color: #555353;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 32px 0;
+}
+
+#lista-rodape li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+
+#lista-rodape li a:hover {
+    color: #b5121b;
+}
+
+#fim-rodape {
+    height: 100px;
+}
+
+#fim-rodape li {
+    list-style: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 11px;
+    font-weight: 800;
+}
+
+#fim-rodape li a {
+    text-decoration: none;
+    color: #fff;
+    transition: .5s;
+}
+
+#fim-rodape li a:hover {
+    color: #b5121b;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    .container {
+        margin: 0;
+        margin: 0 auto;
+    }
+
+    #primary-navbar .navbar .container {
+        max-width: 100%;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    #primary-navbar .navbar .container {
+        max-width: 100%;
+        padding: 0;
+        padding-left: 16px;
+        margin: 0;
+    }
+
+    #primary-navbar .navbar .container nav ul li a p {
+        color: #fff;
+        margin: 0 8px 0 0;
+        font-size: 10px;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+
+    #primary-navbar .navbar .container img {
+        width: 130px;
+    }
+
+    #rodape .container nav ul li a > i {
+        font-size: 16px;
+        margin-right: 20px;
+    }
+
+    #rodape .container nav ul li a > div p {
+        font-size: 9px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    #rodape .container nav ul li a > div strong {
+        font-size: 12px;
+    }
+
+    #fim-rodape li {
+        list-style: none;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 8px;
+        font-weight: 800;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+    #acessibilidade {
+        display: none;
+    }
+
+    #primary-navbar .navbar .container {
+        justify-content: space-between!important;
+    }
+
+    #parceiros .container .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #parceiros .container .row .col-3 {
+        margin-bottom: 16px;
+    }
+
+    #parceiros .container .row .col-3 img {
+        width: 250px;
+    }
+
+    #rodape .container nav ul li a > i {
+        font-size: 28px;
+        margin: 0;
+    }
+
+    #rodape {
+        height: 584px;
+    }
+
+    #rodape .container nav ul li a > div p {
+        font-size: 9px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    #rodape .container nav ul li a > div strong {
+        font-size: 10px;
+    }
+
+    #fim-rodape li {
+        list-style: none;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 6px;
+        font-weight: 800;
+    }
+
+    #lista-rodape li h5 {
+        font-size: 12px;
+        color: #555353;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin: 8px 0;
+    }
+
+    #lista-rodape li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 9px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        transition: .5s;
+    }
+
+    #lista-rodape {
+        display: block;
+        text-align: center;
+    }
+
+    #hide {
+        display: none;
+    }
+
+    #fim-rodape {
+        display: block!important;
+        text-align: center;
+    }
+
+    #fim-rodape li {
+        margin: 16px 0;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    
+    #acessibilidade {
+        display: none;
+    }
+
+    #hide {
+        display: none;
+    }
+    
+    #parceiros .container .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+    }
+
+    #parceiros .container .row .col-3 {
+        margin-bottom: 16px;
+    }
+
+    #parceiros .container .row .col-3 img {
+        width: 250px;
+    }
+
+    #filmes-cartaz .container .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #filmes-cartaz .container .row .col-3 {
+        width: 80%;
+    }
+
+    #novidades .container .row .col-5 {
+        width: 80%;
+    }
+
+    #novidades .container .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #novidades .container .row .col-5 .card .card-footer{
+        flex-direction: column;
+    }
+
+    #lista-rodape {
+        display: block;
+        text-align: center;
+    }
+
+    #fim-rodape {
+        display: block!important;
+        text-align: center;
+    }
+
+    #fim-rodape li {
+        margin: 16px 0;
+        font-size: 10px;
+    }
+}
